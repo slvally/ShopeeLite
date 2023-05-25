@@ -1,2 +1,2 @@
 # Shopee-Lite
-this website using PHP and Mongodb
+this website is built using PHP and Mongodb
