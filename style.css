@@ -1,0 +1,197 @@
+body{
+    background-color: #F5F5F5;
+    /* min-width: 900px; */
+}
+/* Navbar */
+#h_navbar{
+    background-color: #FB5631;
+}
+#h_navbar .container {
+    display: flex;
+}
+#h_navbar .container #search{
+    flex: 5;
+}
+#h_navbar .container img{
+    position: relative;
+    bottom: 5px;
+    height: 48px;
+}
+.icon{
+    color: white;
+    font-size: 28px;
+}
+#logo{
+
+}
+
+/* carousel */
+/* #myCarousel {
+    width: 100%;
+}
+.carouselExampleControls {
+    margin-top: 20px;
+}
+.carousel-inner .carousel-item {
+    
+    
+} */
+
+/* Kategori */
+#h_kategori{
+    border-radius: 8px;
+    background-color: white;
+}
+#listkategori{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+#h_kategori .kategori{
+    height: 80px;
+    width: auto;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+/* Produk */
+#h_produk{
+    border-radius: 8px;
+    background-color: white;
+}
+#h_produk .item{}
+
+/* ListCart */
+#listcart {
+    background-color: white; height: px; display: flex; align-items: center; border-radius: 8px;
+}
+#cartimg{
+    background-image: url(); background-size: cover; background-repeat: no-repeat; width: 110px; height: 100px; background-position: center; border-radius: 8px;
+}
+#cartharga{
+    flex: 2; color: #FB5631; font-weight: 600;
+}
+.icon2 {
+    color: #FB5631;
+    font-size: 28px;
+}
+#ckbutton{
+    
+}
+
+
+/* DetailProduk */
+#detail{
+    /* height: 600px; */
+    background-color: white;
+    border-radius: 8px;
+}
+#d_top{
+    height: 250px;
+    display: flex;
+    /* gap: 30px; */
+}
+#d_pict {
+    width: 300px;
+    /* height: 300px; */
+    border: 8px;
+    border-radius: 8px;
+}
+#d_pict img{
+    height: 100%; width: 100%; object-fit: cover;
+}
+#d_info{
+    
+}
+#addtocart {
+    background-color: #FB5631;
+    color: white;
+    padding: 8px 30px;
+}
+#merchant {
+    height: 150px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border-radius: 8px; */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+#shoppict {
+    width: 100px;
+    height: 100px;
+}
+#shopname {
+    flex: 2;
+}
+#shopdetail {
+    flex: 3;
+    justify-content: center;
+    gap: 30px;
+    height: 110px;
+}
+#desc {
+    border-bottom-right-radius: 8px;
+    border-bottom-lefts-radius: 8px;
+
+    background-color: white;
+}
+#spec {
+    flex: 1;
+}
+#des {
+    flex: 1;
+}
+
+
+/* Checkout */
+#c_item {
+    /* height: 400px; */
+    background-color: white;
+    border-radius: 8px;
+}
+#citems {
+    background-color: #F5F5F5;
+    border-radius: 8px;
+}
+#copsi {
+    background-color: white;
+    border-radius: 8px;
+}
+#csum {
+    background-color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+#conf {
+    background-color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+/*card produk*/
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.card a {
+text-decoration: none;
+color: black;
+}
+
+
+.grid-produk { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-gap: 20px; */
+    /* align-items: stretch; */
+}
+
+.grid-produk > img {
+    max-width: 100%;
+}
+
+.total-pembayaran {
+    font-weight: bold;
+}
